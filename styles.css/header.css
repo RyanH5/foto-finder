@@ -1,1 +1,111 @@
-.
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(59, 43, 52);
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#foto_finder_display__title {
+  color: white;
+  text-align: center;
+  margin: 0%;
+  padding: 4% 2% 2% 2%;
+  font-size: 6rem;
+}
+
+#header_camera__icon {
+  height: 6rem;
+}
+
+#foto_input__form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display_text_title_caption {
+  justify-content: flex-start;
+  color: rgb(144, 131, 132);
+  margin: 1rem 65rem 1rem 19rem;
+}
+
+#display_text__caption {
+  margin: 1rem 65rem 1rem 21rem;
+}
+
+.header_input__fields {
+  width: 49rem;
+  height: 4rem;
+}
+
+#choose_add_buttons__form {
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+}
+
+.choose_add_buttons {
+  background-color: rgb(88, 69, 71);
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.choose_add_buttons + label {
+    color: white;
+    background-color: rgb(88, 69, 71);
+    display: inline-block;
+    height: 4rem;
+    text-align: center;
+    width: 19rem;
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding: 1% 2%;
+    font-kerning: unset;
+    margin: 0% 3% 0% 15%;
+}
+
+#select_image__file + label {
+    color: white;
+    background-color: rgb(88, 69, 71);
+    display: inline-block;
+    height: 4rem;
+    text-align: center;
+    width: 19rem;
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding: 1% 2%;
+    font-kerning: unset;
+    margin: 0% 3% 0% 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

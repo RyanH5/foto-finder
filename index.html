@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
   <title>Foto-Finder</title>
-  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="styles.css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css/main.css">
+  <link rel="stylesheet" type="text/css" href="styles.css/header.css">
 </head>
 <body>
   <header>
-    <h1>FOTO <span> FINDER</span></h1>
-    <fieldset>
-      <label for="photo_create_title__input">Title</label>
-      <input type="text" name="photo_create_title__input" id="photo_create_title__input" class="header_input__fields">
-      <label for="photo_caption_input"></label>
-      <input type="text" name="photo_create_caption__input">
-      <label for="select_image__file">Choose file to upload</label>
-      <input type="file" id="select_image__file" name="file" multiple>
-      <label for="add_image__file">Add to Album</label>
-      <input type="submit" name="add_image__file" id="add_image__file">
-    </fieldset>
+    <article class="form-wrap">
+    <h1 id="foto_finder_display__title">FOTO 
+      <span>
+        <img src="images/photo-camera.svg" id="header_camera__icon">
+      </span> 
+        FINDER
+    </h1>
+      <form id="foto_input__form">
+        <label class="display_text_title_caption" for="photo_create_title__input" id="title_input__label">Title
+        <input type="text" name="photo_create_title__input" id="photo_create_title__input" class="header_input__fields"></label>
+        <label for="photo_caption_input" class="display_text_title_caption" id="caption_input__label">Caption
+        <input type="text" name="photo_create_caption__input" id="photo_create_caption__input" class="header_input__fields"></label>  
+        <label class='button-wrap' for="select_image__file">Choose File</label>
+        <input type="file" id="select_image__file" name="select_image__file" class= "choose_add_buttons input-file" multiple>
+        <label class='button-wrap' for="add_image__file" id="add_album__label">Add to Album</label>
+        <input type="submit" name="add_image__file" class= "choose_add_buttons" id="add_image__file">
+      </form>
+      </article>
   </header>
   <main id="photo_album__section"></main>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/Users/charles/turing/ideabox/js/jquery.min.js"><\/script>')</script>
+  <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

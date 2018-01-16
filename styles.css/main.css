@@ -4,4 +4,16 @@ main {
   width: 100vw;
 }
 
+.prepend_card {
+  height: 30rem;
+  width: 20rem;
+  background-color: #FFF;
+  margin: 5% 5% 0%;
+}
+
+.prepend_card__title {
+  padding: 4%;
+  font-weight: normal;
+  font-size: 18px;
+}
 

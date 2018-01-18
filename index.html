@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="styles.css/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles.css/main.css">
   <link rel="stylesheet" type="text/css" href="styles.css/header.css">
+  <link rel="stylesheet" type="text/css" href="styles.css/queries.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>
@@ -21,7 +23,7 @@
         <label for="photo_caption_input" class="display_text_title_caption" id="caption_input__label">Caption
         <input type="text" name="photo_create_caption__input" id="photo_create_caption__input" class="header_input__fields"></label>  
         <label class='button-wrap' for="select_image__file">Choose File</label>
-        <input type="file" id="select_image__file" name="select_image__file" class= "choose_add_buttons input-file" multiple>
+        <input type="file" id="select_image__file" name="select_image__file" class= "choose_add_buttons input-file" multiple accept="image/x-png,image/gif,image/jpeg">
         <label class='button-wrap' for="add_image__file" id="add_album__label">Add to Album</label>
         <input type="submit" name="add_image__file" class= "choose_add_buttons" id="add_image__file">
       </form>

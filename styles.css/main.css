@@ -1,19 +1,56 @@
 main {
   background-color: rgb(191, 179, 180);
   height: 50vh;
-  width: 100vw;
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 6%;
 }
 
 .prepend_card {
-  height: 30rem;
-  width: 20rem;
+  height: 290px;
+  width: 205px;
   background-color: #FFF;
-  margin: 5% 5% 0%;
+  margin: 5% 4% 0%;
 }
 
 .prepend_card__title {
   padding: 4%;
   font-weight: normal;
   font-size: 18px;
+}
+
+.prepend_card__image {
+  width: 100%;
+  margin-bottom: -2px;
+}
+
+footer {
+  background-color: rgb(88, 69, 71);
+  height: 40px;
+}
+
+.remove_btn {
+  margin-left: 2%;
+  margin-top: 4%;
+  background-color: rgb(88, 69, 71);
+  border: none;
+}
+
+#trash_can {
+  height: 25px;
+}
+
+.favorite_btn {
+  background-color: #5b4447;
+  border: none;
+  margin-top: 4%;
+  margin-left: 70%;
+}
+
+#beige_heart {
+  border-style: none;
+  height: 25px;
+  border: 0;
 }
 
